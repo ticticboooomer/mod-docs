@@ -41,6 +41,9 @@ const config = {
         blog: {
           showReadingTime: true,
         },
+        theme: {
+          customCss: [require.resolve('./src/css/custom.css')]
+        }
       }),
     ],
   ],
@@ -85,7 +88,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Tic Tic Boooom - Mods`,
+        copyright: `Copyright © ${new Date().getFullYear()} Tic Tic Boooom - Mods.`,
       },
       prism: {
         theme: lightCodeTheme,
