@@ -83,7 +83,6 @@ const config = {
             position: 'left',
             docsPluginId: 'masterful_machinery'
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
         ],
       },
       footer: {
