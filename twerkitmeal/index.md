@@ -9,7 +9,7 @@ The mod adds configurability features to the original idea, without losing the o
 
 
 ## Where do i read the docs?
-The docs themselves are located to the left of the web-page in the sidebaru.
+The docs themselves are located to the left of the web-page in the sidebar.
 
 ## Credits - Notable Contributions
 
