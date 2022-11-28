@@ -1,11 +1,11 @@
-# Structure Parts - Port
+# Structure Parts - Port Block
 
-The `mm:port` structure part defines a key for a port block as defined in the config jsons
+The `mm:block` structure part is simply a key for a specific block in a structure.
 
 ### The Structure Part Id
 ```json
 {
-    "type": "mm:port",
+    "type": "mm:port_block",
     ...
 }
 ```
@@ -13,21 +13,19 @@ The `mm:port` structure part defines a key for a port block as defined in the co
 ### Full Definition
 ```json
 {
-    "type": "mm:port",
+    "type": "mm:port_block",
     // the id field is optional, it is used for the mm:port_designated recipe entry to designate specific ports in a structure for an ingredient 
     "id": "<unique id of port in structure>",
-    "port": "<port type id>",
-    "input": <true|false>
+    "portId": "<id of the port you created in the config>"
 }
 ```
 
 ### Full Example
 ```json
 {
-    "type": "mm:port",
+    "type": "mm:port_block",
     // the id field is optional, it is used for the mm:port_designated recipe entry to designate specific ports in a structure for an ingredient 
     "id": "my_funky_port",
-    "port": "mm:item",
-    "input": false
+    "portId": "mm:large_item_input"
 }
 ```
