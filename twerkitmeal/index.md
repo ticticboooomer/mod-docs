@@ -8,7 +8,7 @@ Twerk It Meal is a mod developed by Tic Tic designed to simply provide the age-o
 The mod adds configurability features to the original idea, without losing the original pazzazz of the originals.
 
 
-## Where do i read the docs?
+## Where do I read the docs?
 The docs themselves are located to the left of the web-page in the sidebar.
 
 ## Credits - Notable Contributions

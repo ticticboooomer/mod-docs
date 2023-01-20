@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Structures
 
 structures are the json defined blocks and their placement relative to the controller.

@@ -15,3 +15,10 @@ This file is called `solar_panel.json`
   }
 }
 ```
+### Explanations
+
+[Type](/masterfulmachinery/rewrite/config/controllers/type)
+
+[Id](/masterfulmachinery/rewrite/config/controllers/id)
+
+[Name](/masterfulmachinery/rewrite/config/controllers/name)

@@ -10,20 +10,164 @@ This file is called `solar_panel.json`
 
 ```json
 {
-  "duration": 1,
-  "structureId": "NameSpace:solar_panel",
+  "controllerId": "mm:solar_panel",
   "name": {
-    "text": "Solar Generator"
+    "text": "Solar Panel Blockstate Edition"
   },
-  "inputs": [],
-  "outputs": [
-    {
-      "type": "mm:simple",
-      "ingredient": {
-        "type": "mm:energy",
-        "amount": 50
-      }
+  "layout": [
+    [
+      "DDDDD",
+      "DDDDD",
+      "  D  ",
+      "DDDDD",
+      "DDDDD"
+    ],
+    [
+      "     ",
+      "     ",
+      "  B  ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "  B  ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "  B  ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "  C  ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "  A  ",
+      "     ",
+      "     "
+    ]
+  ],
+  "key": {
+    "A": {
+      "type": "mm:port",
+      "port": "mm:energy",
+      "id": "solar_panel_output",
+      "input": false
+    },
+    "B": {
+      "type": "mm:tag",
+      "tag": "minecraft:walls"
+    },
+    "D": {
+      "type": "mm:and",
+      "parts": [
+        {
+          "type": "mm:block",
+          "block": "minecraft:daylight_detector"
+        },
+        {
+          "type": "mm:blockstate",
+          "blockstates": {
+            "inverted": "true"
+          }
+        }
+      ]
+    },
+    "E": {
+      "type": "mm:and",
+      "parts": [
+        {
+          "type": "mm:block",
+          "block": "minecraft:daylight_detector"
+        },
+        {
+          "type": "mm:or",
+          "parts": [
+            {
+              "type": "mm:blockstate",
+              "blockstates": {
+                "inverted": "false",
+                "power": "14"
+              }
+            },
+            {
+              "type": "mm:blockstate",
+              "blockstates": {
+                "inverted": "false",
+                "power": "13"
+              }
+            },
+            {
+              "type": "mm:blockstate",
+              "blockstates": {
+                "inverted": "false",
+                "power": "12"
+              }
+            },
+            {
+              "type": "mm:blockstate",
+              "blockstates": {
+                "inverted": "false",
+                "power": "11"
+              }
+            },
+            {
+              "type": "mm:blockstate",
+              "blockstates": {
+                "inverted": "false",
+                "power": "10"
+              }
+            },
+            {
+              "type": "mm:blockstate",
+              "blockstates": {
+                "inverted": "false",
+                "power": "9"
+              }
+            },
+            {
+              "type": "mm:blockstate",
+              "blockstates": {
+                "inverted": "false",
+                "power": "8"
+              }
+            },
+            {
+              "type": "mm:blockstate",
+              "blockstates": {
+                "inverted": "false",
+                "power": "7"
+              }
+            },
+            {
+              "type": "mm:blockstate",
+              "blockstates": {
+                "inverted": "false",
+                "power": "6"
+              }
+            },
+            {
+              "type": "mm:blockstate",
+              "blockstates": {
+                "inverted": "false",
+                "power": "5"
+              }
+            }
+          ]
+        }
+      ]
     }
-  ]
+  }
 }
 ```

@@ -21,3 +21,15 @@ This file is called `solar_panel_energy_input.json`
   }
 }
 ```
+
+### Explanations
+
+[Id](/masterfulmachinery/rewrite/config/ports/id)
+
+[Name](/masterfulmachinery/rewrite/config/ports/name)
+
+[Port](/masterfulmachinery/rewrite/config/ports/port)
+
+[Input](/masterfulmachinery/rewrite/config/ports/input)
+
+[Config](/masterfulmachinery/rewrite/config/ports/config)
