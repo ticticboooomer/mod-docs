@@ -27,3 +27,13 @@ This file is called `50_energy.json`
   ]
 }
 ```
+
+### Explanations
+
+[Duration](/masterfulmachinery/rewrite/processes//id)
+
+[Name](/masterfulmachinery/rewrite/processes//name)
+
+[Inputs](/masterfulmachinery/rewrite/processes/io)
+
+[Outputs](/masterfulmachinery/rewrite/processes/io)

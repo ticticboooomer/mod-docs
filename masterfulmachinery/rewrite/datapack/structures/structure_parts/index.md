@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Structure Parts
 
 ### What are Structure Parts?

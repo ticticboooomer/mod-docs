@@ -1,0 +1,1 @@
+the files inside of the downloads folder is for links that make people download files, I.E example datapack

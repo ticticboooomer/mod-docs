@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-This file is located `modpackInstance\config\mm\ports`
+This file is located `ModpackInstance\config\mm\ports\ `
 
 This file is called `solar_panel_energy_input.json`
 
@@ -21,15 +21,3 @@ This file is called `solar_panel_energy_input.json`
   }
 }
 ```
-
-### Explanations
-
-[Id](/masterfulmachinery/rewrite/config/ports/id)
-
-[Name](/masterfulmachinery/rewrite/config/ports/name)
-
-[Port](/masterfulmachinery/rewrite/config/ports/port)
-
-[Input](/masterfulmachinery/rewrite/config/ports/input)
-
-[Config](/masterfulmachinery/rewrite/config/ports/config)
