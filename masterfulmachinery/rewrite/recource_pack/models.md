@@ -23,10 +23,11 @@ This will probably be the most common way of replacing a controller or port text
   }
 }
 ```
-> Remember this is a texture file we are referencing not a model file.
 
 6. where it says `"base": "mm:block/base_block"` set `"mm:block/base_block"` to your blocks texture. I.e - `"minecraft:block/sponge"`
 
-> you must have `block` and all the folders inside in of it in the block path name I.e - `"tconstruct:block/smeltery/seared/bricks"`
+| :memo: | you must have `block` and all the folders inside in of it in the block path name I.e - `"tconstruct:block/smeltery/seared/bricks"`. |
+|--------|:------------------------------------------------------------------------------------------------------------------------------------|
 
-> press f3 + T to reload the resource pack
+| :memo: | press f3 + T to reload the resource pack. |
+|--------|:------------------------------------------|

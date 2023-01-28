@@ -19,8 +19,7 @@ structures are the json defined blocks and their placement relative to the contr
         [
             // You must define uppercase C only once, it tells the structure where the controller will be placed
             // Make sure you put the controller and the structure facing upwards in the file or in other words facing north
-            // 
-            "ACA"
+            "ACA",
             "BBB",
             "DDD"
         ],

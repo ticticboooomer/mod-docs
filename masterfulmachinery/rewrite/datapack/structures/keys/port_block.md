@@ -1,4 +1,4 @@
-# Structure Parts - Port Block
+# Structure Part - Port Block
 
 The `mm:block` structure part is simply a key for a specific block in a structure.
 

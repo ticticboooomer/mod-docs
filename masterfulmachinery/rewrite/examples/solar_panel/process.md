@@ -2,6 +2,8 @@
 sidebar_position: 4
 ---
 
+# Process
+
 This file is located `ModpackInstance\config\openloader\data\datapackName\data\NameSpace\mm\processes\solar_panel\ `
 
 This file is called `50_energy.json`

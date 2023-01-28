@@ -1,11 +1,11 @@
-# Structure Parts - Block Tag
+# Structure Part - Block
 
 The `mm:block` structure part is simply a key for a specific block in a structure.
 
 ### The Structure Part Id
 ```json
 {
-    "type": "mm:tag",
+    "type": "mm:block",
     ...
 }
 ```
@@ -13,15 +13,15 @@ The `mm:block` structure part is simply a key for a specific block in a structur
 ### Full Definition
 ```json
 {
-    "type": "mm:tag",
-    "tag": "<block tag id>"
+    "type": "mm:block",
+    "block": "<block id>"
 }
 ```
 
 ### Full Example
 ```json
 {
-    "type": "mm:tag",
-    "tag": "minecraft:wool"
+    "type": "mm:block",
+    "block": "minecraft:glass"
 }
 ```

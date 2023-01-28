@@ -1,4 +1,4 @@
-# Structure Parts - Port
+# Structure Part - Port
 
 The `mm:port` structure part defines a key for a port block as defined in the config jsons
 
