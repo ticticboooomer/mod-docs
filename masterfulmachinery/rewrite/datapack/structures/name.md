@@ -15,8 +15,7 @@ this can be either `text` or a `translation` key
 
 ### Translation
 ```json
+  "name": {
     "translation": "gui.mm.solar_panel_structure"
+  },
 ```
-
-| :memo:  | `Translation` replaces the entire `"name"` object |
-|---------|:--------------------------------------------------|
