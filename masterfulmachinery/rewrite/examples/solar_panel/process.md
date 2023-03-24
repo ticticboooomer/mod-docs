@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Process
 
-This file is located `ModpackInstance\config\openloader\data\datapackName\data\NameSpace\mm\processes\solar_panel\ `
+This file is located `ModpackInstance\config\openloader\data\datapackName\data\namespace\mm\processes\solar_panel\ `
 
 This file is called `50_energy.json`
 
@@ -13,7 +13,7 @@ This file is called `50_energy.json`
 ```json
 {
   "duration": 1,
-  "structureId": "NameSpace:solar_panel",
+  "structureId": "namespace:solar_panel",
   "name": {
     "text": "Solar Generator"
   },

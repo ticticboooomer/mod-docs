@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Structure
 
-This file is located `ModpackInstance\config\openloader\data\datapackName\data\NameSpace\mm\structures\solar_panel\ `
+This file is located `ModpackInstance\config\openloader\data\datapackName\data\namespace\mm\structures\solar_panel\ `
 
 This file is called `solar_panel.json`
 

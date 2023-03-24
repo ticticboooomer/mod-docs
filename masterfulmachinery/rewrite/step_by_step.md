@@ -70,25 +70,25 @@ This is where it gets more complicated, so if you have been struggling this is o
 
 ### Structure
 11. First of all we need a valid datapack check out [This page](./datapack/) for help with this.
-12. now we need to create some folders to sort out what we are doing, first create the structures and recipes folders, they belong here
+12. now we need to create some folders inside the datapack to help sort out what we are doing, first create the structures and recipes folders, they belong here
 
-`datapackName\data\nameSpace\mm\structures\(optional for further sorting e.g. sort by controller)\structure.json`
+`datapackName\data\namespace\mm\structures\(optional for further sorting e.g. sort by controller)\structure.json`
 
-`datapackName\data\nameSpace\mm\recipes\(optional for further sorting e.g. sort by structure)\recipe.json`
+`datapackName\data\namespace\mm\recipes\(optional for further sorting e.g. sort by structure)\recipe.json`
 
 Where `datpackName` is anything you want this is just a name that is unique to your datapack
 
-And `nameSpace` is anything you want, this is also a unique name so make sure to not use another mod, but you can if needed, I generally like to have a folder that is an abbreviation of the modpacks name e.g. Modpack Name `All the mods 6` so your namespace would be `atm6`
+And `namespace` is anything you want, this is also a unique name so make sure to not use another mod id or you may start replacing recipes from that mod, but you can if needed, I generally like to have a folder that is an abbreviation of the modpacks name e.g. Modpack Name `All the mods 6` so your namespace would be `atm6`
 
 13. Right once all the folders are set up, load your game then load into a world
 14. Start making your structure, this will be what you want your machine to look like, so a giant furnace for example
-15. Once you have your structure created add the controller and port blocks that you created earlier added to your structure and made sure they are where you want them
-16. Next give yourself the `Structure Wand` item, with this item we can right-click 2 blocks to set the first and second position of the structure
+15. Once you have your structure created add the controller and port blocks that you created earlier to your structure and made sure they are where you want them
+16. Next give yourself the `Structure Wand` item from Masterful Machinery, with this item we can right-click 2 blocks to set the first and second position of the structure
 
 This will quickly select and save your structure to a file so we can fill in the blanks to quickly create Masterful Machinery Structures
 
 17. Now we need to navigate to the `mm_generated` folder in your instance root, you will notice a json file with a obscure name, find your most recent one or the one that is correct
-18. Now move this file into your datapack into the `datapackName\data\nameSpace\mm\structures\` folder
+18. Now move this file into your datapack into the `datapackName\data\namespace\mm\structures\` folder
 19. Rename this file so its easily identifiable later on like `solar_panel_structure.json` or similar
 20. Open this file, Now you will see some lines are missing `controllerID` and `name`, fill these in with the required values
 
