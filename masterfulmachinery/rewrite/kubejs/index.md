@@ -7,7 +7,7 @@ sidebar_position: 3
 below are some examples of hows to use the kubejs integration. more details will come soon.
 
 
-`startup_scripts/script.js`
+`startup_scripts`
 
 ```js
 // Add Controllers
