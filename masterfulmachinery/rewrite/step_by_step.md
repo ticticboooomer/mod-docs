@@ -74,7 +74,7 @@ This is where it gets more complicated, so if you have been struggling this is o
 
 `datapackName\data\namespace\mm\structures\(optional for further sorting e.g. sort by controller)\structure.json`
 
-`datapackName\data\namespace\mm\recipes\(optional for further sorting e.g. sort by structure)\recipe.json`
+`datapackName\data\namespace\mm\processes\(optional for further sorting e.g. sort by structure)\recipe.json`
 
 Where `datpackName` is anything you want this is just a name that is unique to your datapack
 
