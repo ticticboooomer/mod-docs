@@ -106,7 +106,56 @@ and `name` is the friendly name of the Structure
 
 ### Process/Recipe
 
-WIP Still to write :/
+(Remember you can be in the world while doing this! Just use `/reload`!)
+
+21. Goto `datapackName\data\namespace\mm\processes\(optional for further sorting e.g. sort by structure)\recipe.json`
+    Where `recipe.json` can be anything you want as long as it ends on "`.json`" not "`.txt.json`" or "`.json.txt`" then it will not work!
+22. In `your_recipe_name.json` add
+```json
+{
+    "duration": 400,
+    "structureId": "your_namespace:your_machine",
+    "name": {
+      "text": "Grass Block"
+    }
+}
+```
+Example:
+```json
+{
+  "duration": 400,
+  "structureId": "namespace:structure_id",
+  "name": {
+    "text": "Grass Block"
+  },
+  "inputs": [
+    {
+      "type": "mm:simple",
+      "ingredient": {
+        "type": "mm:item",
+        "item": "minecraft:dirt",
+        "count": 1
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "type": "mm:simple",
+      "ingredient": {
+        "type": "mm:item",
+        "item": "minecraft:grass_block",
+        "count": 1
+      }
+    }
+  ]
+}
+```
+Where `"text":` is the name of the recipe (when your machine is processing the recipe name will show in the controller gui) and `"duration":` is how long the recipe will take to process (in minecraft ticks, there is 20 ticks per second so divide the duration by 20 to get real world seconds).
+You can have as many `"inputs":` and `"outputs":` as you want just note that too many may cause the server to lag!
+
+23.  Now you can use `"mm:item"`, `"mm:fluid"`, `"mm:energy"`, and more! To learn more visit [here](./datapack/processes/types/input)
+
+(This is still WIP so some bugs that are not explained here may exist!)
 
 If all done correctly we should have our controller, ports a structure and now a recipe YAY.
 We can verify these files by loading the game up and searching JEI `@MM` this will show us all the blocks/items Masterful Machinery adds, if you see your blocks here then we know that the controller and ports files are working.
