@@ -52,7 +52,7 @@ Next we must create the ports that we want to use, so if it's a solar panel for 
          }
       }
 ```
-where - 
+where -
 
 `id` is the name of the json file you just created
 
@@ -92,7 +92,7 @@ This will quickly select and save your structure to a file so we can fill in the
 19. Rename this file so its easily identifiable later on like `solar_panel_structure.json` or similar
 20. Open this file, Now you will see some lines are missing `controllerID` and `name`, fill these in with the required values
 
-where `controllerId` is the id of the controller you set, inside the controller file inside the config section. This needs to be in the format of `"mm:controllerID"` so the full line reads 
+where `controllerId` is the id of the controller you set, inside the controller file inside the config section. This needs to be in the format of `"mm:controllerID"` so the full line reads
 ```json
 "controllerId": "mm:solar_panel",
 ```
