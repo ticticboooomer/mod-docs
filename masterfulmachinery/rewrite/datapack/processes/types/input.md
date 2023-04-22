@@ -259,8 +259,8 @@ This type will allow mekanism slurries to be used as an input for your machine.
 {
   "type": "mm:simple",
   "ingredient": {
-    "type": "mm:mekanism_gas",
-    "slurry": "mekanism:hydrogen",
+    "type": "mm:mekanism_slurry",
+    "slurry": "mekanism:dirty_copper",
     "amount": 666
   }
 }
