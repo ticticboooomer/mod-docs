@@ -81,6 +81,29 @@ This type will allow you to use liquids in your recipe.
 ```
 
 --------------------------------
+### `mm:dimension`
+This type will allow you to limit what dimension your recipe can process in. You can only use this as a input requirement.
+
+#### Example
+```json
+{
+  "type": "mm:dimension",
+  "dimension": "modId:dimId"
+}
+```
+
+#### Full Example
+```json
+{
+  "type": "mm:simple",
+  "ingredient": {
+    "type": "mm:dimension",
+    "dimension": "minecraft:the_end"
+  }
+}
+```
+
+--------------------------------
 ## Create mod
 In order to use these ingredient types you must first have these dependencies
 1. [Create mod](https://www.curseforge.com/minecraft/mc-mods/create) and its dependencies installed in your modpack
