@@ -37,7 +37,7 @@ Next we must create the ports that we want to use, so if it's a solar panel for 
 
 ### Ports
 8. Goto `config/mm/ports` folder and create a new json file with the name styled like so `controller_name_port_type_input/output.json` e.g. `drying_rack_energy_input.json`, `drying_rack_item_output.json`
-9. Inside that new json file we have to add some properties that define the port, depending on the port being used we have different properties check out [This Page](./config/ports/) for information about what stuff does
+9. Inside that new json file we have to add some properties that define the port, depending on the port being used we have different properties check out [This Page](./config/ports) for information about what stuff does
 10. Inside the port file, we add
 ```json
 {
@@ -69,7 +69,7 @@ Now if we were to load up the game we would see our controller block and our por
 This is where it gets more complicated, so if you have been struggling this is only going to get harder sorry but ill try and explain everything to make it easier to understand
 
 ### Structure
-11. First of all we need a valid datapack check out [This page](./datapack/) for help with this.
+11. First of all we need a valid datapack check out [This page](./datapack) for help with this.
 12. now we need to create some folders inside the datapack to help sort out what we are doing, first create the structures and recipes folders, they belong here
 
 `datapackName\data\namespace\mm\structures\(optional for further sorting e.g. sort by controller)\structure.json`
