@@ -95,11 +95,8 @@ This type will allow you to limit what dimension your recipe can process in. You
 #### Full Example
 ```json
 {
-  "type": "mm:simple",
-  "ingredient": {
-    "type": "mm:dimension",
-    "dimension": "minecraft:the_end"
-  }
+   "type": "mm:dimension",
+   "dimension": "minecraft:the_end"
 }
 ```
 
