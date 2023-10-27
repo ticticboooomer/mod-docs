@@ -8,8 +8,6 @@ This page defines what type of ingredient you can use as an input for your recip
 ## Base Mod
 These types are already implemented into Masterful Machinery no extra addons are required.
 
-### `mm:item`
-This type will allow you to use items as part of the recipe, you CANNOT use tags, you must use this [Process Entry](./../io/gate_or) if you want multiple items to be accepted as a single input.
 
 #### Example
 ```json
